@@ -28,9 +28,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_2984.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_plus_1740.csv"),
+    Path("/data/loto7_4724_k93.csv"),
+    Path("/data/loto7_4724_k93_loto_2984.csv"),
+    Path("/data/loto7_4724_k93_loto_plus_1740.csv"),
 )
 
 
@@ -1915,7 +1915,7 @@ Ucenje modela za test.
 Test NLL: 16.543651
 Zavrsno ucenje: svi istorijski prelazi.
 Tacna pretraga NEXT maksimuma.
-NEXT: [8, 10, 11, 22, 23, 26, 34]
+NEXT: [8, x, 11, y, 23, z, 34]
 
 CSV: loto7_4724_k93_loto_2984.csv
 Ucenje paznje: reg=1.
@@ -1927,7 +1927,7 @@ Ucenje modela za test.
 Test NLL: 16.552515
 Zavrsno ucenje: svi istorijski prelazi.
 Tacna pretraga NEXT maksimuma.
-NEXT: [8, 16, 21, 22, 23, 35, 38]
+NEXT: [8, x, 21, y, 23, z, 38]
 
 CSV: loto7_4724_k93_loto_plus_1740.csv
 Ucenje paznje: reg=1.
@@ -1938,7 +1938,7 @@ Ucenje modela za test.
 Test NLL: 16.557370
 Zavrsno ucenje: svi istorijski prelazi.
 Tacna pretraga NEXT maksimuma.
-NEXT: [2, 7, 8, 23, 26, 32, 34]
+NEXT: [2, x, 8, y, 26, z, 34]
 """
 
 
